@@ -121,6 +121,6 @@ def play(board)
       puts "It was a draw"
     end
   end
-  if won?(board)
+
 
 end
