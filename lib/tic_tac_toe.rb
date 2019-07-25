@@ -102,10 +102,10 @@ def over?(board)
 end
 
 def winner(board)
-  winner = won?(board)
+  w = won?(board)
   #binding.pry
-  if winner
-    return board[winner[0]]
+  if w
+    return board[w[0]]
   else
     return nil
   end
