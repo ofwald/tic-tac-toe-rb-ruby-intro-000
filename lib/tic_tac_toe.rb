@@ -123,4 +123,3 @@ def play(board)
 end
 
 
-end
